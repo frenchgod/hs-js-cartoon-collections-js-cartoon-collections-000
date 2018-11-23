@@ -1,7 +1,12 @@
 function dwarfRollCall(dwarves) {
   	var dwarfString = ""
+<<<<<<< HEAD
 	for (var i = 0; i < dwarves.length; i++){
 		dwarfString = dwarfString + (i + 1 + ". " + dwarves[i] + " ") 
+=======
+	for (var i = 0; i < listOfDudes.length; i++){
+		dwarfString = dwarfString + (i + 1 + ". " + listOfDudes[i] + " ") 
+>>>>>>> 562d399d9c4aaed7168b8132f28afdbc5df60b93
 	}
 
 return dwarfString	
